@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabu Search</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabu Search</h1>
+    <div>
+        <label for="totvar">Input total cost</label>
+        <input type="number" id="totvar" step="1" placeholder="input here...">
+        <br>
+        <label for="totconst">Input total const</label>
+        <input type="number" id="totconst" step="1" placeholder="input here...">
+        <br>
+        <button type="button" onclick="gentable()">Generate Table</button>
+    </div>
+    <div id="gentab">
+
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
